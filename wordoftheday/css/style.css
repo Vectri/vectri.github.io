@@ -1,6 +1,9 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
+html{font-size:100%;}
+@media(min-width:60em){html{font-size: 100%}}
 .center-box {
 	position: absolute;
 	left: 50%;
@@ -40,6 +43,7 @@ body {
 .author:hover {
 	cursor: pointer;
 	cursor: hand;
+<<<<<<< HEAD
 }
 @media only screen and (max-device-width: 480px) {
 	.center-box {
@@ -69,4 +73,6 @@ body {
 		right: 1%;
 		bottom: 1%;
 	}
+=======
+>>>>>>> parent of 6f992e8... Further mobile support
 }
