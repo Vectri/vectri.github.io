@@ -48,23 +48,23 @@ body {
 		top: 50%;
 		transform: translate3d(-50%, -55%, 0);
 		text-align: center;
-		font-size: 800%;
+		font-size: 500%;
 		font-weight: 400;
 	}
 	.header {
 		text-align: left;
-		font-size: 80%;
+		font-size: 50%;
 		font-weight: 400;
 	}
 	.partofspeech {
-		font-size: 100%;
+		font-size: 60%;
 		font-style: italic;
 	}
 	.definition {
-		font-size: 100%;
+		font-size: 60%;
 	}
 	.author {
-		font-size: 180%;
+		font-size: 100%;
 		position: absolute;
 		right: 1%;
 		bottom: 1%;
