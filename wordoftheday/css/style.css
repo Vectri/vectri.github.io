@@ -1,9 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
 }
-html{font-size:100%;}
-@media(min-width:60em){html{font-size: 100%}}
 .center-box {
 	position: absolute;
 	left: 50%;
@@ -43,4 +40,38 @@ html{font-size:100%;}
 .author:hover {
 	cursor: pointer;
 	cursor: hand;
+}
+@media (max-width: 500px) {
+	.center-box {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate3d(-50%, -55%, 0);
+		text-align: center;
+		font-size: 300%;
+		font-size: 8vw;
+		font-weight: 400;
+	}
+	.header {
+		text-align: left;
+		font-size: 40%;
+		font-size: 4vw;
+		font-weight: 400;
+	}
+	.partofspeech {
+		font-size: 50%;
+		font-size: 4vw;
+		font-style: italic;
+	}
+	.definition {
+		font-size: 50%;
+		font-size: 4vw;
+	}
+	.author {
+		font-size: 90%;
+		font-size: 3.6vw;
+		position: absolute;
+		right: 1%;
+		bottom: 1%;
+	}
 }
