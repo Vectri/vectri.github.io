@@ -1,0 +1,43 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.center-box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%, -55%, 0);
+	text-align: center;
+	font-size: 400%;
+	font-weight: 400;
+}
+.header {
+	text-align: left;
+	font-size: 40%;
+	font-weight: 400;
+	position: relative;
+	top: 100px;
+}
+.word {
+	font-weight: 600;
+}
+.partofspeech {
+	font-size: 50%;
+	font-style: italic;
+	position: relative;
+	top: -100px;
+}
+.definition {
+	font-size: 50%;
+	position: relative;
+	top: -100px;
+}
+.author {
+	font-size: 90%;
+	position: absolute;
+	right: 1%;
+	bottom: 1%;
+}
+.author:hover {
+	cursor: pointer;
+	cursor: hand;
+}
