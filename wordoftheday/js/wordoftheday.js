@@ -31,7 +31,7 @@ $(document).ready(function () {
 	if (location.protocol === 'https:') {
 		$("#word").text("HTTPS");	
 		$("#definition").text("If you want to view this page you must disable HTTPS.");
-		bghex = Color_mixer.mix($.Color("#FF0000"), $.Color("#ffffff"));
+		var bghex = Color_mixer.mix($.Color("#FF0000"), $.Color("#ffffff"));
 		$("body").css("background-color", bghex);
 	}
 });
