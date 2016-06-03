@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	'use strict';
- 	var wordURL = "https://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5&callback=?";
+ 	var wordURL = "http://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5&callback=?";
 	$.getJSON(wordURL)
 	.done(function (data) {
 		var word = data.word;
@@ -26,6 +26,6 @@ $(document).ready(function () {
 		console.log("Error: " + textStatus);
 	});
 	$(".author").click(function () {
-		window.location = "https://vectri.github.io/";
+		window.location = "http://vectri.github.io/";
 	})
 });
