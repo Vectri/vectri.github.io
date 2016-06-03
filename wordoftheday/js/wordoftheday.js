@@ -19,7 +19,7 @@ $(document).ready(function () {
 				bghex += "0";
 			}
 		}
-		bghex = Color_mixer.mix($.Color("#" + bghex), $.Color("#ffffff"))
+		bghex = Color_mixer.mix($.Color("#" + bghex), $.Color("#ffffff"));
 		$("body").css("background-color", bghex);
 	})
 	.fail(function (textStatus) {
@@ -29,7 +29,9 @@ $(document).ready(function () {
 		window.location = "http://vectri.github.io/";
 	});
 	if (location.protocol === 'https:') {
-		$("#word").text("API does not support HTTPS");	
+		$("#word").text("HTTPS");	
 		$("#definition").text("If you want to view this page you must disable HTTPS.");
+		bghex = Color_mixer.mix($.Color("#FF0000"), $.Color("#ffffff"));
+		$("body").css("background-color", bghex);
 	}
 });
