@@ -7,6 +7,10 @@ $(document).ready(function () {
 		$("#word").text(word);
 		$("#partofspeech").text(data.definitions[0].partOfSpeech);
 		$("#definition").text(data.definitions[0].text);
+		if (location.protocol === 'https:') {
+			$("#word").text("API does not support HTTPS");	
+			$("#definition").text("If you want to view this page you must disable HTTPS.");
+		}
 		function charToNumber (s, i) {
 			return parseInt(s.charAt(i), 36) - 9;
 		}
