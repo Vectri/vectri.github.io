@@ -9,7 +9,7 @@ body {
 	width: 99%;
 }
 #mid {
-	font-size: 200%;
+	font-size: 150%;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -71,9 +71,42 @@ body {
 	transform: translateY(-50%); 
 	font-size: 5vmin;
 }
+#nicktext {
+	color: black;
+	font-size: 70%;
+	padding: 2vh;
+	margin: 3vh;
+	border: 2px solid black;
+	border-radius: 6px;
+	background: transparent;
+	display: none;
+	width: 10vh;
+	text-align: center;
+}
 #bot {
 	font-size: 200%;
     position: fixed;
     bottom: 0vh;
 	width: 100%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+	border-collapse: collapse;
+	outline: 3px solid black;
+}
+
+thead {
+	background-color: black;
+	color: white;
+}
+
+tr, th {
+	padding-left: 1vh;
+	padding-right: 1vh;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #f1f1f1;
 }
